@@ -34,10 +34,9 @@
                         <div class="flip-card-front">
                           <img src="{{asset('frontend/img/f1.jpg')}}" alt="Avatar" style="width:300px;height:200px;">
                         </div>
-                        <div class="flip-card-back">
-                          <h1>John Doe</h1>
-                          <p>Architect & Engineer</p>
-                          <p>We love that guy</p>
+                        <div class="flip-card-back py-5">
+                            <h1>ROYAL HOTEL</h1>
+                            <p>The Best Choice For You</p>
                         </div>
                       </div>
                     </div>
@@ -49,10 +48,9 @@
                         <div class="flip-card-front">
                           <img src="{{asset('frontend/img/f2.jpg')}}" alt="Avatar" style="width:300px;height:200px;">
                         </div>
-                        <div class="flip-card-back">
-                          <h1>John Doe</h1>
-                          <p>Architect & Engineer</p>
-                          <p>We love that guy</p>
+                        <div class="flip-card-back py-5">
+                          <h1>ROYAL HOTEL</h1>
+                          <p>The Best Choice For You</p>
                         </div>
                       </div>
                     </div>
@@ -64,10 +62,9 @@
                         <div class="flip-card-front">
                           <img src="{{asset('frontend/img/f3.jpg')}}" alt="Avatar" style="width:300px;height:200px;">
                         </div>
-                        <div class="flip-card-back">
-                          <h1>John Doe</h1>
-                          <p>Architect & Engineer</p>
-                          <p>We love that guy</p>
+                        <div class="flip-card-back py-5">
+                            <h1>ROYAL HOTEL</h1>
+                            <p>The Best Choice For You</p>
                         </div>
                       </div>
                     </div>
