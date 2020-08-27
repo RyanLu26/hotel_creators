@@ -11,7 +11,7 @@
 			<thead>
 			<tr>
 				<th colspan="6" class="text-center">
-					<h2>The Hotel</h2>
+					<h2>Royal Hotel</h2>
 
 					<h5>Mandalay</h5>
 					<h5 class="pt-4">Tel: 09797921219</h5>
@@ -59,12 +59,24 @@
 			</tr>
 			<tr>
 				<th>No.</th>
-				<th>Name:</th>
-				<th>Rate:</th>
-				<th>#####</th>
-				<th>#####</th>
+				<th>Name</th>
+				<th>Number of Days</th>
+				<th>Rate</th>
+				<th>Sub Total</th>
 			</tr>
 		</thead>
+		{{-- <tbody>
+			@php $i=1; @endphp
+			@foreach($reservation as $reservation)
+			<tr>
+				<td>{{$i++}}</td>
+				<td>{{$reservation->name}}</td>
+				<td>{{$reservation->cin_date}}</td>
+				<td>{{$reservation->cout_date}}</td>
+				<td>{{$reservation->room_type->room->rate}}</td>
+			</tr>
+			@endforeach
+		</tbody> --}}
 
 		</table>
 

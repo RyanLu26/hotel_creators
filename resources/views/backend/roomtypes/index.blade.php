@@ -11,7 +11,7 @@
 			</a>
 		</div>
 
-		<table>
+		<table class="table-responsive">
 			<thead>
 				<tr>
 					<th>No.</th>
@@ -28,16 +28,16 @@
 					<td>{{$roomtype->name}}</td>
 					<td>{{$roomtype->capacity}}</td>
 					<td>
-						<form method="post" action="{{route('room.destroy',$room->id)}}" onsubmit="return confirm('Are you sure?')" class="d-inline-block">
+						<form method="post" action="{{route('roomtype.destroy',$roomtype->id)}}" onsubmit="return confirm('Are you sure?')" class="d-inline-block">
 		                @csrf
 		                @method('DELETE')
 		                <input type="submit" name="btnsubmit" value="Delete" class="btn btn-danger">
-		              </form>
+		              	</form>
 					</td>
 				</tr>
+				@endforeach
 			</tbody>
 		</table>
-
 	</div>
 
 @endsection

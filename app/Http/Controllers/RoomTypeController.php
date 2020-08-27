@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;\
+use Illuminate\Http\Request;
 use App\RoomType;
 
 class RoomTypeController extends Controller
@@ -96,6 +96,9 @@ class RoomTypeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $roomtype = RoomType::find($id);
+        $roomtype->delete();
+
+        return redirect()->route('roomtype.index');
     }
 }

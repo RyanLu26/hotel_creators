@@ -10,20 +10,20 @@
 			@method('PUT')
 			<div class="form-group">
 				<label>Room Number</label>
-				<input type="number" name="rnumber" class="form-control" value="{{$room->rnumber}}" readonly="readonly">
+				<input type="number" name="rno" class="form-control" value="{{$room->rnumber}}" readonly="readonly">
 			</div>
 			<div class="form-group">
 				<label>Name</label>
-				<input type="text" name="name" class="form-control" value="{{$room->name}}">
+				<input type="text" name="rname" class="form-control" value="{{$room->name}}">
 			</div>
 			<div class="form-group">
 				<label>Photo</label>
-				<input type="file" name="photo" class="form-control" value="{{asset($room->photo)}}">
+				<input type="file" name="rphoto" class="form-control" value="{{asset($room->photo)}}">
 				<input type="hidden" name="oldphoto" value="{{$room->photo}}">
 			</div>
 			<div class="form-group">
 				<label>Description</label>
-				<textarea name="description" class="form-control">{{$room->description}}</textarea>
+				<textarea name="desc" class="form-control">{{$room->description}}</textarea>
 			</div>
 			<div class="form-group">
 				<label>Rate</label>

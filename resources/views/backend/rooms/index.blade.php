@@ -38,7 +38,6 @@
             <td>
               <a href="{{route('room.show',$room->id)}}" class="btn btn-warning">Detail</a>
               <a href="{{route('room.edit',$room->id)}}" class="btn btn-success">Edit</a>
-
               <form method="post" action="{{route('room.destroy',$room->id)}}" onsubmit="return confirm('Are you sure?')" class="d-inline-block">
                 @csrf
                 @method('DELETE')
