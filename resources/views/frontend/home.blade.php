@@ -1,6 +1,6 @@
 @extends('frontendtemplate')
 @section('content')
-
+  <h1>Testing git </h1>
     <div class="container py-3">
         <h1 class="text-center text-uppercase">Royal's Facilities</h1>
         <p class="text-center">Who are in extremely love with eco friendly system.</p>
