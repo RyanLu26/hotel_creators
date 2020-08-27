@@ -3,15 +3,28 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Room;
+// use App\Item;
 
 class FrontendController extends Controller
 {
      public function home(){
-    	return view('frontend.home');
+        $rooms=Room::all();
+        // $items=Item::all();
+    	return view('frontend.home',compact('rooms'));
     }
 
     public function room(){
-    	return view('frontend.room');
+        $rooms=Room::all();
+    	return view('frontend.room',compact('rooms'));
+    }
+
+    public function frontenddetail($id){
+        
+
+        $room = Room::find($id);
+        // dd($item);
+        return view('frontend.detail', compact('room'));
     }
     
     public function frontendgallery(){
@@ -36,5 +49,16 @@ class FrontendController extends Controller
 
     public function frontendlogin(){
         return view('frontend.login');
+    }
+
+    public function getRooms(Request $request){
+        $sid = $request->sid;
+        if($sid == 0){
+            $rooms = Room::all();
+        }else{
+            $rooms = reservation::find($sid)->room;
+        }
+        
+        return $rooms;
     }
 }

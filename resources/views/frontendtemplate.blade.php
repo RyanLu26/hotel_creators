@@ -37,7 +37,7 @@
 					</li>
 
                     <li class="nav-item">
-                        <a href="{{route('frontendcheckout')}}" class="nav-link">BOOKING</a>
+                        <a href="{{URL::route('homepage')}}#BookingArea" class="nav-link">BOOKING</a>
                     </li>
 
                     <li class="nav-item">
@@ -177,5 +177,6 @@
     </footer>
 	<script type="text/javascript" src="{{asset('frontend/vendor/bootstrap/js/jquery.min.js')}}"></script>
 	<script type="text/javascript" src="{{asset('frontend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    @yield('script')
 </body>
 </html>

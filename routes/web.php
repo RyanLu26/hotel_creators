@@ -20,6 +20,8 @@ Route::get('rooms','FrontendController@room')->name('rooms');
 
 Route::get('frontendgallery','FrontendController@frontendgallery')->name('frontendgallery');
 
+Route::get('frontenddetail/{id}','FrontendController@frontenddetail')->name('frontenddetail');
+
 Route::get('frontendabout','FrontendController@frontendabout')->name('frontendabout');
 
 Route::get('frontendcontact','FrontendController@frontendcontact')->name('frontendcontact');
@@ -49,6 +51,8 @@ Route::resource('reservation','ReservationController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/getrooms','FrontendController@getRooms')->name('getrooms');
 
 
 
