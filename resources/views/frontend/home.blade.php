@@ -120,8 +120,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Resturant</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
                                 </div>
                             </div>
                             </div>
@@ -137,8 +136,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Swimming Pool</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">Royal Hotel’s swimming pool is set with a perfect venting system, 
+                                and a luxury pool surrounded with natural light ensuring a relaxing atmosphere.
+                                </p>
                                 </div>
                             </div>
                             </div>
@@ -154,8 +154,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Sports Club</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">Sport and fitness center is included in the room rate. Free access every day between 06:00 – 10:00. Before entering, please read the rules, available in reception.</p>
                                 </div>
                             </div>
                             </div>
@@ -174,8 +173,7 @@
                             <div class="col-md-8 ">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Bar</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">Enjoy a drink in our Royal Hotel's bar, is a truly enjoyable experience – the views of the natural harbour by natural stones will help to ensure that you will have a “relaxing drink”</p>
                                 </div>
                             </div>
                             </div>
@@ -191,8 +189,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Rental Cars</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">Royal Hotel searches cheap car rental prices in over 53000 locations worldwide. Find your ideal ... online today. Wide range of car options available – economy, luxury, family-sized cars</p>
                                 </div>
                             </div>
                             </div>
@@ -208,8 +205,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><b>Gymnesium</b></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut</p>
+                                <p class="card-text">With a mix of equipment and weights, our Royal Hotel gym will cater to you whether you want to do a cardio workout.Once you've worked up a sweat.</p>
                                 </div>
                             </div>
                             </div>

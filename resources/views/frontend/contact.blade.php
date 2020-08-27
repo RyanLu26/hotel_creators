@@ -62,20 +62,20 @@
        	   	  	<div class="row text-center py-5">
        	   	  		<div class="col-md-4">
        	   	  			<a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
-       	   	  			<p>San Francisco, CA 94126</p>
-       	   	  			<p>United States</p>
+       	   	  			<p>Mandalay, Yonegyi 05021</p>
+       	   	  			<p>Myanmar</p>
        	   	  		</div>
 
        	   	  		<div class="col-md-4">
        	   	  			<a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-       	   	  			<p>+ 01 234 567 89</p>
-       	   	  			<p>Mon - Fri, 8:00-22:00</p>
+       	   	  			<p>+95 9 688 376 656</p>
+       	   	  			<p>Mon - Sun, 8:00-22:00</p>
        	   	  		</div>
 
        	   	  		<div class="col-md-4">
        	   	  			<a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
-       	   	  			<p>info@gmail.com</p>
-       	   	  			<p>sale@gmail.com</p>
+       	   	  			<p>yeyint25.mk@gmail.com</p>
+       	   	  			<p>yeyint25.mk@yahoo.com</p>
        	   	  		</div>
        	   	  	</div>
        	   	  </div>

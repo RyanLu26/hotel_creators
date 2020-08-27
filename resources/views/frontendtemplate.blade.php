@@ -135,12 +135,13 @@
     <div class="container">
     	<div class="row">
     		<div class="col-md-4 px-5">
-    			<h5>Our Delivery</h5>
-    			<p class="text-justify text-muted">You can order from home.We will knock you soon.</p>
+    			<h5>Our Description</h5>
+    			<p class="text-justify text-muted">The Royal Hotel is a modern, elegant 4-star hotel overlooking the sea, perfect for a romantic, charming vacation.</p>
     		</div>
     		<div class="col-md-4 px-5">
-    			<h5>Our Services</h5>
-    			<p class="text-justify text-muted">Quick Delivery,Fresh Ones,Right Time Information,Trust Contact</p>
+    			<h5>Our Service</h5>
+    			<p class="text-justify text-muted">To have the best pleasure for you.
+                It's the aim of our Royal Hotel</p>
     		</div>
     		<div class="col-md-4 px-5 social">
     			
