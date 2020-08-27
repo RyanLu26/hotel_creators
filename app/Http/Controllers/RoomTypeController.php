@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Http\Request;\
+use App\RoomType;
 
 class RoomTypeController extends Controller
 {
@@ -13,7 +14,8 @@ class RoomTypeController extends Controller
      */
     public function index()
     {
-        //
+        $roomtypes = RoomType::all();
+        return view('backend.rooms.index',compact('rooms'));
     }
 
     /**
