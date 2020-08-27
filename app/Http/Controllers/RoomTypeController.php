@@ -15,7 +15,7 @@ class RoomTypeController extends Controller
     public function index()
     {
         $roomtypes = RoomType::all();
-        return view('backend.rooms.index',compact('rooms'));
+        return view('backend.roomtypes.index',compact('roomtypes'));
     }
 
     /**
@@ -25,7 +25,8 @@ class RoomTypeController extends Controller
      */
     public function create()
     {
-        //
+        $roomtypes = RoomType::all();
+        return view('backend.roomtypes.create',compact('roomtypes'));
     }
 
     /**
@@ -36,7 +37,21 @@ class RoomTypeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Validate
+        $request->validate([
+            'name'=>'required',
+            'capacity'=>'required'
+        ]);
+
+        //Insert Data
+        $roomtype = new RoomType;
+        $roomtype->name = $request->name;
+        $roomtype->capacity = $request->capacity;
+
+        $roomtype->save();
+
+        //Redirect
+        return redirect()->route('roomtype.index');
     }
 
     /**

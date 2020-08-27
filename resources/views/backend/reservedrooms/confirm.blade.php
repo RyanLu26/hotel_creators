@@ -20,12 +20,18 @@
 				<form method="post" action="{{route('reservedroom.store')}}">
 					
 					@csrf
-					@foreach($rooms as $room)
-						<select name="room_id">
-							<option value="{{$room->id}}">{{$room->rnumber}}</option>
-						</select>
-					@endforeach
-
+					<select name="room_id">
+					
+						@foreach($rooms as $room)	
+							
+							@if(!in_array($room->id, $reservedRoomArray))
+								
+								<option value="{{$room->id}}">{{$room->rnumber}}</option>
+								
+							@endif
+						
+						@endforeach
+					</select>
 					<input type="hidden" name="reservation" value="{{$reserved->id}}">
 
 					<input type="hidden" name="room_rate" value="{{$room->rate}}">

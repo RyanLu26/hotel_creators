@@ -14,19 +14,19 @@
 					<input type="number" name="rnumber">
 				</div>
 				<div class="container mt-3">
-					<label for="rno">Name : </label>
+					<label for="rname">Name : </label>
 					<input type="text" name="name">
 				</div>
 				<div class="container mt-3">
-					<label for="rno">Photo : </label>
+					<label for="rphoto">Photo : </label>
 					<input type="file" name="photo">
 				</div>
 				<div class="container mt-3">
-					<label for="rno">Description : </label>
+					<label for="rdesc">Description : </label>
 					<textarea name="description"></textarea>
 				</div>
 				<div class="container mt-3">
-					<label for="rno">Rate : </label>
+					<label for="rate">Rate : </label>
 					<input type="number" name="rate">
 				</div>
 				<div class="container mt-3">

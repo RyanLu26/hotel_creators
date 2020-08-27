@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Reservation;
 use App\Roomtype;
 use App\Guest;
+use App\ReservedRoom;
 
 class ReservationController extends Controller
 {
@@ -23,7 +24,13 @@ class ReservationController extends Controller
     public function index()
     {
         $reservations=Reservation::all();
-        return view('backend.reservations.index',compact('reservations'));
+         $reservedrooms = ReservedRoom::all();
+          $reservedRoomArray = [];
+
+        foreach ($reservedrooms as $value) {
+            array_push($reservedRoomArray, $value->reservation_id);
+        }
+        return view('backend.reservations.index',compact('reservations', 'reservedRoomArray'));
     }
 
     /**

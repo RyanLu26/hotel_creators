@@ -106,11 +106,19 @@ class ReservedRoomController extends Controller
 
      public function confirm($id)
     {
+
         $reserved = Reservation::find($id);
         $guest = Guest::find($reserved->guest_id);
         $room_type = RoomType::find($reserved->roomtype_id);
         $rooms = Room::all();
-        
-        return view('backend.reservedrooms.confirm', compact('reserved','guest','rooms', 'room_type'));
+        $reservedRooms = ReservedRoom::all();
+        $reservedRoomArray = [];
+
+        foreach ($reservedRooms as $value) {
+            array_push($reservedRoomArray, $value->room_id);
+        }
+
+    
+        return view('backend.reservedrooms.confirm', compact('reserved','guest','rooms', 'room_type', 'reservedRoomArray'));
     }
 }

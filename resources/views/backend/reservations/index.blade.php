@@ -18,7 +18,8 @@
 		<tbody>
 			@php $i=1 @endphp
 			@foreach($reservations as $reservation)
-			<tr>
+				@if(!in_array($reservation->id, $reservedRoomArray))
+				<tr>
 				<td>{{$i++}}</td>
 				<td>{{$reservation->cin_date}}</td>
 				<td>{{$reservation->cout_date}}</td>
@@ -38,6 +39,7 @@
 				
 				</td>
 			</tr>
+				@endif
 			@endforeach
 		</tbody>
 	</table>
