@@ -52,12 +52,13 @@ $(document).ready(function(){
 
 	// Add To Cart
 	$(".addtocart").on('click',function(){
+		alert("ok");
 		var item_qty=parseInt($('#qty').val());
 		var id = $(this).data('id');
 		var name = $(this).data('name');
 		var photo = $(this).data('photo');
-		var price = $(this).data('price');
-		var discount = $(this).data('discount');
+		var rate = $(this).data('rate');
+		// var discount = $(this).data('discount');
 		var qty=1;
 		if (item_qty) {
 			qty+=--item_qty;
@@ -66,8 +67,7 @@ $(document).ready(function(){
 		var shop_item = {
 			id:id,
 			name:name,
-			price:price,
-			discount:discount,
+			rate:rate,
 			photo:photo,
 			qty:qty
 		}
